@@ -13,7 +13,7 @@ class Solution{
   public:
     //Function to find triplets with zero sum.
     bool findTriplets(int arr[], int n)
-    { 
+    {
         //Your code here
         sort(arr, arr+n);
         for(int i=0; i<n-2; i++){
@@ -43,7 +43,7 @@ int main()
     	Solution obj;
         if(obj.findTriplets(arr, n))
             cout<<"1"<<endl;
-        else 
+        else
             cout<<"0"<<endl;
 	}
     return 0;
